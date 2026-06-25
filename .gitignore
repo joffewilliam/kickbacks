@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# Local tooling/session state (contains tokens — never commit)
+.ctrl-deck/
+
+# Editor/agent local config
+.claude/
+
+# Vendored upstream copy (kept locally, not part of this repo)
+upstream/
+
+# Local capture artifacts
+.kickbacks-*.png
+
+# OS / misc
+.DS_Store
+Thumbs.db
